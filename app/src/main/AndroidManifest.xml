@@ -9,13 +9,19 @@
         android:roundIcon="@drawable/ic_face_white_24dp"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomepageActivity">
+        <activity
+            android:name=".HomepageActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".elegant.ElegantActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".cquptdata.DrawViewActivity"></activity>
     </application>
 
 </manifest>

@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ele_tab_layout">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ele_tab_layout_org_stu">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
 </resources>
